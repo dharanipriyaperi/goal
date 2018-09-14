@@ -1,0 +1,38 @@
+body {
+  color:rgb(0,0,0);
+}
+
+#GoalSection {
+  width:100%;
+  height:100vh;
+}
+
+.nav-item {
+  text-transform:uppercase;
+}
+
+#col-75 {
+  width:75%;
+  border-radius:5px;
+  height:100%;
+}
+
+#col-25 {
+  width:100%;
+}
+
+#col25 {
+  width:50%;
+}
+
+#footer {
+  margin-top:40px;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+#contactus {
+  margin-left:250px;
+  margin-top:100px;
+}
+

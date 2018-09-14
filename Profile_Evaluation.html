@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width= device-width, initial-scale = 1, shrink-to-fit = no">
+    <meta property="charset" content="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Dharani Peri, Datta Kiran">
+    <title>Goal-India</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marmelad">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Martel:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,700&amp;subset=cyrillic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+</head>
+
+<body>
+    <div class="contact-clean">
+        <form method="post">
+            <h2 class="text-center">Profile Evaluation</h2>
+            <h5 class="text-center text-danger">Write NA if unavailable</h5>
+            <div class="form-group"><input class="form-control" type="text" name="name" required="" placeholder="Name" pattern="/[^a-z]/gi"></div>
+            <div class="form-group"><input class="form-control" type="date" name="dob" required=""></div>
+            <div class="form-group"><input class="form-control" type="text" placeholder="City"></div>
+            <div class="form-group"><input class="form-control" type="tel" name="phone" required="" placeholder="Mobile Number" maxlength="13" pattern="/[^0-9 +]/g"></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" required="" placeholder="Email"></div>
+            <div class="form-group"><label>Current Studies:</label><select class="form-control" name="current_studies" required=""><optgroup label="Your current Studies"><option value="1">Masters</option><option value="2">Bachelors</option><option value="3">Intermediate</option></optgroup></select></div>
+            <div
+                class="form-group"><label>PG (Masters) Score:</label><input class="form-control" type="text" name="pgscore" required="" placeholder="PG(Masters) score">
+                <div class="form-check"><input class="form-check-input" type="radio" name="pgscore" id="formCheck-2"><label class="form-check-label" for="formCheck-2">CGPA</label></div>
+                <div class="form-check"><input class="form-check-input" type="radio" name="pgscore" checked="" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Percentage</label></div>
+    </div>
+    <div class="form-group"><label>PG(Masters) details:&nbsp;</label><textarea class="form-control" name="pgdetails" required="" placeholder="PG title, college/university name, duration"></textarea></div>
+    <div class="form-group"><label>PG(Masters) arrears/backlogs:&nbsp;</label><input class="form-control" type="number" name="pgarrears" placeholder="No. of arrears"></div>
+    <div class="form-group"><label>UG (Bachelors) Score:</label><input class="form-control" type="text" name="pgscore" required="" placeholder="UG(Bachelors) score">
+        <div class="form-check"><input class="form-check-input" type="radio" name="ugscore" id="formCheck-2"><label class="form-check-label" for="formCheck-2">CGPA</label></div>
+        <div class="form-check"><input class="form-check-input" type="radio" name="ugscore" checked="" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Percentage</label></div>
+    </div>
+    <div class="form-group"><label>UG(Bachelors) details:&nbsp;</label><textarea class="form-control" name="ugdetails" required="" placeholder="UG title, college/university name, duration"></textarea></div>
+    <div class="form-group"><label>UG(Bachelors) arrears/backlogs:&nbsp;</label><input class="form-control" type="number" name="ugarrears" placeholder="No.of arrears"></div>
+    <div class="form-group"><label>Intermediate Score:</label><input class="form-control" type="text" name="interscore" required="" placeholder="Intermediate score">
+        <div class="form-check"><input class="form-check-input" type="radio" name="interscore" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Grade</label></div>
+        <div class="form-check"><input class="form-check-input" type="radio" name="interscore" checked="" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Percentage</label></div>
+    </div>
+    <div class="form-group"><label>Year of passing</label><input class="form-control" type="month" name="interyop"></div>
+    <div class="form-group"><label>10th Score:</label><input class="form-control" type="text" name="10thscore" required="" placeholder="10th score">
+        <div class="form-check"><input class="form-check-input" type="radio" name="10thscore" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Grade</label></div>
+        <div class="form-check"><input class="form-check-input" type="radio" name="10thscore" checked="" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Percentage</label></div>
+    </div>
+    <div class="form-group"><label>Year of passing</label><input class="form-control" type="month" name="10thyop"></div>
+    <div class="form-group"><label>Aiming Degree:</label><textarea class="form-control" name="aimdetails" required="" placeholder="Details including the name of stream/branch of study."></textarea></div>
+    <div class="form-group"><label>Academic cycle you are planning to attend:</label><select class="form-control" name="acadcycle" required=""><optgroup label="choose an academic cycle"><option value="1">Summer/Spring</option><option value="2">Winter/Fall</option></optgroup></select></div>
+    <div
+        class="form-group"><label>Countries you are planning to apply:</label><textarea class="form-control" name="countrieslist" required="" placeholder="countries list (comma seperated)"></textarea></div>
+        <div class="form-group"><label>Reason for university and country selection(if any) :</label><textarea class="form-control" name="reason" required="" placeholder="Your reason for choosing those specific countries/universities"></textarea></div>
+        <div class="form-group"><label>Resume/CV &nbsp;&nbsp;</label><input type="file" name="fileattach"><button class="btn btn-primary" type="submit">Upload</button></div>
+        <div class="form-group"><label>GRE score (Write NA if unavailable) :</label><input class="form-control" type="text" name="gretotal" placeholder="Total Score (260-340)" maxlength="3" pattern="/[^0-9]/g"><input class="form-control" type="text" name="grequant" placeholder="Quant Score (130-170)"
+                maxlength="3" pattern="/[^0-9]/g"><input class="form-control" type="text" name="greverbal" placeholder="Verbal Score (130-170)" maxlength="3" pattern="/[^0-9]/g"><input class="form-control" type="text" name="greawa" placeholder="AWA Score (0-6)"
+                maxlength="3" pattern="/[^0-9 .]/g"></div>
+        <div class="form-group"><label>IELTS Score :</label><input class="form-control" type="text" name="totalielts" required="" placeholder="IELTS Total (0-9)" maxlength="3" pattern="/[^0-9 .]/g"><input class="form-control" type="text" name="listeningielts" required="" placeholder="IELTS Listening (0-9)"
+                maxlength="3" pattern="/[^0-9 .]/g"><input class="form-control" type="text" name="readingielts" required="" placeholder="IELTS Reading (0-9)" maxlength="3" pattern="/[^0-9 .]/g"><input class="form-control" type="text" name="speakingielts"
+                required="" placeholder="IELTS Speaking (0-9)" maxlength="2" pattern="/[^0-9]/g"><input class="form-control" type="text" name="writingielts" required="" placeholder="IELTS Writing (0-9)" maxlength="2" pattern="/[^0-9]/g"></div>
+        <div class="form-group"><label>Toefl Score :</label><input class="form-control" type="text" name="totaltoefl" required="" placeholder="Toefl Total (0-120)" maxlength="3" pattern="/[^0-9]/g"><input class="form-control" type="text" name="listeningtoefl" required="" placeholder="Toefl Listening (0-30)"
+                maxlength="2" pattern="/[^0-9]/g"><input class="form-control" type="text" name="readingtoefl" required="" placeholder="Toefl Reading (0-30)" maxlength="2" pattern="/[^0-9]/g"><input class="form-control" type="text" name="speakingtoefl" required=""
+                placeholder="Toefl Speaking (0-30)" maxlength="2" pattern="/[^0-9]/g"><input class="form-control" type="text" name="writingtoefl" required="" placeholder="Toefl Writing (0-30)" maxlength="2" pattern="/[^0-9]/g"></div>
+        <div class="form-group"><label>GMAT Score :</label><input class="form-control" type="text" name="totalgmat" required="" placeholder="GMAT Total (200-800)" maxlength="3" pattern="/[^0-9]/g"><input class="form-control" type="text" name="quantgmat" required="" placeholder="GMAT Quant (200-800)"
+                maxlength="3" pattern="/[^0-9]/g"><input class="form-control" type="text" name="verbalgmat" required="" placeholder="GMAT Verbal (200-800)" maxlength="3" pattern="/[^0-9]/g"><input class="form-control" type="text" name="reasoninggmat" required=""
+                placeholder="Integrated Reasoning (1-8)" maxlength="3" pattern="/[^0-9 .]/g"><input class="form-control" type="text" name="writinggmat" required="" placeholder="GMAT AWA (1-6)" maxlength="3" pattern="/[^0-9 .]/g"></div>
+        <div class="form-group">
+            <div class="form-row">
+                <div class="col align-self-center"><button class="btn btn-primary" type="submit">Submit</button></div>
+                <div class="col align-self-center"><button class="btn btn-primary" type="reset">Reset</button></div>
+            </div>
+        </div>
+        </form>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/bs-animation.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+</body>
+
+</html>
