@@ -107,7 +107,6 @@ ul li:before {
 }
 
 #bg-team {
-  background-image:url("../../assets/img/team.jpg");
   background-size:cover;
   background-repeat:no-repeat;
 }
